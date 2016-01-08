@@ -22,16 +22,23 @@ img {
 	margin: -7px auto !important;
 }
 
+
+
 .pics_hover {
   filter: sepia; /* IE6-9 */
   filter: sepia(80%); /* Microsoft Edge and Firefox 35+ */
   -webkit-filter: sepia(80%); /* Google Chrome, Safari 6+ & Opera 15+ */
+
 }
 
 /* Disable grayscale on hover */
 .pics_hover:hover {
   filter: none;
   -webkit-filter: sepia(0);
+  -webkit-transition: -webkit-filter 1s ease;
+    -moz-transition: -webkit-filter 1s ease;
+    -o-transition: -webkit-filter 1s ease;
+    transition: -webkit-filter 1s ease;
 }
 
 h3 {
