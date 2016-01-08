@@ -2,6 +2,7 @@ body {
 	text-align: justify;
 	margin: 50px auto;
 	background-color: #D3D3D3;
+	line-height: 28px;
 }
 
 .navbar {
@@ -26,6 +27,16 @@ h3 {
 	font-weight: bold;
 	font-size: x-large;
 	text-align: center;	
+	margin-top: 50px;
+}
+
+#uvod {
+	font-size: 17px;
+	line-height: 31px;
+}
+
+p {
+	margin: 30px auto auto 30px;
 }
 
 .anchor {
@@ -40,6 +51,7 @@ visible: none;
 
 h4 {
 	color: #3E1730;
+	margin-left: 30px;
 }
 
 
