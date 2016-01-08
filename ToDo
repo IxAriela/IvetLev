@@ -1,11 +1,18 @@
-patička - vertikální vycentrování textu, přilepena dospod, mezera mezi ní a tlačítkem
-spravit odkazy v menu - anchor link
-automatické přepínání aktivního prvku v menu podle scrolování na stránce
+Ivet TODO
+  index.html - zmenit link "Zivotopis" z LinkedIn na CV
+  předělat lví loga v incscape
+  vydolovat z bráchy fotky!
+  zamenit index image Ivet za nove
 
-Nějak oddělené jednotlivé části?
-obrázkové O mně (portfolio?) s odkazy 	- životopis (odkaz na profil na jobs) (fotka mně);
-										- Má cesta k počítačům (fotka psaní na počítači z barcampu)
-										- koníčky (fotka koně)
+Eli TODO:
+  add hover pics transition 0.5s
+  clean up css
+  footer must be glued to the ground
+  align text center X center:
+  give the parts some space!!
+  automatické přepínání aktivního prvku v menu podle scrolování na stránce (skripticek?)
+  fix navbar anchors & links
 
-předělat lví loga v incscape
-vydolovat z bráchy fotky!
+
+Unconsulted TODO:
+  (sem si Ivet bude psat chybicky v ceskem jazyce a pak to spolu budeme lustit a prekladat do IT:))
