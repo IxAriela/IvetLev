@@ -31,7 +31,7 @@ img {
 
 }
 
-/* Disable grayscale on hover */
+/* Enable grayscale on hover */
 .pics_hover:hover {
   filter: none;
   -webkit-filter: sepia(0);
