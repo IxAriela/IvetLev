@@ -8,6 +8,10 @@ body {
 	background-color: #3E1730;
 }
 
+.navbar-default .navbar-nav > li > a {
+	color: #FFFFFF;
+}
+
 img {
 	margin-top: 1em;
 }
