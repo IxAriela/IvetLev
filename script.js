@@ -1,24 +1,16 @@
 $(document).ready(function () {
-	$("li").click(function() {
-		$("li").removeClass("active");
-		$(this).addClass("active");
-	});
-	
-});
-
-$(document).ready(function () {
     $(document).on("scroll", onScroll);
-    
+
     //smoothscroll
     $('a[href^="#"]').on('click', function (e) {
         e.preventDefault();
         $(document).off("scroll");
-        
+
         $('a').each(function () {
             $(this).removeClass('active');
         })
         $(this).addClass('active');
-      
+
         var target = this.hash,
             menu = target;
         $target = $(target);
@@ -33,7 +25,7 @@ $(document).ready(function () {
 
 function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('#menu-center a').each(function () {
+    $('#menu a').each(function () {
         var currLink = $(this);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
