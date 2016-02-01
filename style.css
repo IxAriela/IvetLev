@@ -22,14 +22,20 @@ img {
 	margin: -7px auto !important;
 }
 
-#uvod {
-	font-size: 19px;
-	line-height: 33px;
-	margin: 50px 50px 50px 65px;
-}
 
-#IL {
-	margin: auto 40px auto 40px;
+/*.row-eq-height{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}*/
+.row-eq-height [class*="col-"]{
+  padding: 0;
+}
+.row-eq-height img{
+  width: 100%;
+
 }
 
 .pics_hover {
