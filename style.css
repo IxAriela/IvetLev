@@ -5,14 +5,6 @@ body {
 	line-height: 28px;
 }
 
-.navbar {
-	background-color: #3E1730;
-}
-
-.navbar-default .navbar-nav > li > a {
-	color: #FFFFFF;
-}
-
 img {
 	margin-top: 1em;
 }
@@ -97,17 +89,12 @@ input:not([type="submit"]) {
     background: rgba(255,255,255,0.5);
 }
 
-.text {
-	padding-bottom: 50px !important;
-}
-
 form {
 	text-align: center;
 }
 
 input:[type="submit"] {
 	margin-bottom: 50px;
-
 }
 
 footer {
@@ -124,3 +111,14 @@ footer {
   position: relative;
 }
 
+.navbar {
+  background-color: #3E1730;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFFFFF;
+}
+
+.text {
+  padding-bottom: 50px !important;
+}
