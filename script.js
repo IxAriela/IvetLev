@@ -20,8 +20,11 @@ $(document).scroll(function() {
       $('nav a').removeClass('active');
       $('nav a:eq(3)').addClass('active');
     }
-
+    if ($(this).scrollTop() >= $('section[data-anchor="kontakt"]').offset().top) {
+      $('nav a').removeClass('active');
+      $('nav a:eq(3)').addClass('active');
 });
+
 
 // script for scrolling
 
