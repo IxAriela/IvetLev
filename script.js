@@ -23,6 +23,8 @@ $(document).scroll(function() {
 
 });
 
+// script for scrolling
+
 // $('#menu li').on('click', function() {
 
 //     var scrollAnchor = $(this).attr('data-scroll'),
@@ -37,8 +39,6 @@ $(document).scroll(function() {
 // })
 
 // $(window).scroll(function() {
-
-
 
 // });
 
